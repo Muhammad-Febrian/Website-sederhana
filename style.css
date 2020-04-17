@@ -1,0 +1,60 @@
+body {
+    font-family: arial;
+    background-image: url(gunung.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.header h4 {
+    padding-left: 20px;
+    font-size: 25px;
+    display: inline-block;
+}
+
+
+a:hover {
+    color: green;
+    text-decoration: underline;
+
+}
+
+a {
+    text-decoration: none;
+    color: #fe333f;
+}
+
+.header {
+    background-color: #84f5bf;
+    text-align: center;
+    height: 95px;
+}
+
+a:active {
+    font-style: italic;
+    color: inherit;
+}
+
+p a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.konten {
+    background-color: #38c8ea;
+}
+
+.footer {
+    background-color: #84f5bf;
+    height: 25px;
+    display: inline;
+    font-size: 25px;
+}
+
+h1 {
+    font-variant: small-caps;
+    color: gold;
+    font-size: 50px;
+    background-color: red;
+    display: inline;
+}
