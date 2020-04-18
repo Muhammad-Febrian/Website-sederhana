@@ -2,7 +2,7 @@ body {
     font-family: arial;
     background-image: url(gunung.png);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 120%;
 }
 
 
@@ -46,9 +46,11 @@ p a {
 
 .footer {
     background-color: #84f5bf;
-    height: 25px;
-    display: inline;
-    font-size: 25px;
+    height: 50%;
+    display: inline-block;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
 }
 
 h1 {
@@ -57,4 +59,32 @@ h1 {
     font-size: 50px;
     background-color: red;
     display: inline;
+}
+
+.daftar {
+    font-family: arial;
+    color: #00fd00;
+}
+
+.daftar fieldset {
+    border: 7px solid black;
+}
+
+.daftar legend {
+    font-size: 25px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.footer2 {
+    text-align: center;
+    background-color: #84f5bf;
+    font-size: 20px;
+    height: 355px;
+    width: 100%;
+}
+
+.footer2 img {
+    width: 315px;
+    height: 250px;
 }
